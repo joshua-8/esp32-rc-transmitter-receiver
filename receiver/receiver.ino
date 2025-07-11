@@ -7,8 +7,8 @@
 
 const byte ch1Pin = 32; // speed_rc_pin
 const byte ch2Pin = 33; // turn_rc_pin
-const byte ch3Pin = 25; // stop_rc_pin
-const byte ch4Pin = 26; // ctrl_rc_pin
+const byte ch3Pin = 25; // ctrl_rc_pin
+const byte ch4Pin = 26; // stop_rc_pin
 
 int ch1Val;
 int ch2Val;
