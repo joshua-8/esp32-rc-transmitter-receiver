@@ -8,13 +8,13 @@
 const int ledPin = 2;
 const int buttonPin = 0;
 
-const byte ch1Pin = 34; // forwards joystick axis
-const byte ch2Pin = 35; // right joystick axis
+const byte ch1Pin = 34; // right joystick axis
+const byte ch2Pin = 35; // forwards joystick axis
 const byte ch3Pin = 26; // who has control switch, disconnect from ground to override
 const byte ch4Pin = 27; // stop switch, disconnect from ground to stop
 
-#define CH1CONFIG 50, 1640, 3770, 100 // back, center, forwards, deadzone
-#define CH2CONFIG 4080, 1973, 100, 100 // left, center, right, deadzone
+#define CH1CONFIG 4080, 1973, 100, 100 // left, center, right, deadzone
+#define CH2CONFIG 50, 1640, 3770, 100 // back, center, forwards, deadzone
 
 int ch1Val;
 int ch2Val;
